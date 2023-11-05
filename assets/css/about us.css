@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   
     /* list-style: none; */
   }
@@ -668,7 +669,7 @@ nav{
 
 
 .card {
-  width: 300px;
+  max-width: 300px;
   border-radius: 0.5rem;
   /* background-color: red; */
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -768,13 +769,14 @@ nav{
   flex-basis: auto;
   background: transparent;
   margin-left: 0px;
+  filter: invert();
 }
 
 
 .logo img {
   width: 70px;
   cursor: pointer;
-  background: transparent;
+  color: black;
   
 }
 
@@ -851,6 +853,8 @@ box-shadow: 0 0 10px #333;
 .fixedNavbar .logo{
   filter: invert();
 }
+
+
 
 
 
@@ -1250,7 +1254,7 @@ box-shadow: 0 0 10px #333;
   }
 
  .navbar ul{
-  background-color: #1875FF;
+  background-color: rgb(140, 94, 185);
   z-index: 9999999999;
   flex-direction: column;
  }
@@ -1351,6 +1355,8 @@ box-shadow: 0 0 10px #333;
   label.logo {
     font-size: 30px;
     padding-left: 50px;
+    color: black;
+    filter: invert();
   }
 
   .details{

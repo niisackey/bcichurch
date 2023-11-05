@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
-
 <head>
-	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Believers Citadel</title>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/church.css">
 	<link rel="stylesheet" href="./assets/css/icon_css/all.min.css">
 	<link rel="stylesheet" href="./assets/css/icon_css/fontawesome.min.css">
-	<link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+
+	<link rel="shortcut icon" href="assets/images/BCI LOGO white-01.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="assets/css/splide.min.css">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-	<!-- <style>
-		.splide__slide img {
-			width: 100%;
-			height: auto;
-		}
-	</style> -->
 
 
-	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+	<!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"> -->
 </head>
 
 <body onload="slider()">
@@ -44,7 +42,7 @@
 							<i class="fas fa-bars"></i>
 						</label>
 						<label class="logo">
-							<img src="assets/images/logo.png">
+							<img src="assets/images/BCI LOGO white-01.png">
 						</label>
 						<ul>
 							<div>
@@ -71,7 +69,8 @@
 			</nav>
 			<div class="content">
 				<h1>Welcome to Believers Citadel International Church</h1>
-				<h3>Worship with us this and every Sunday</h3>
+				<h2>Where Lives are Changed and Jesus Christ made the focus.</h2>
+				<br>
 
 				<a href=""><button type="button">Worship with us</button></a>
 			</div>
@@ -81,9 +80,10 @@
 	
 	<div class="custom-shape-divider-bottom-1683664417">
 		<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-			<path
+			<path>
 				d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-				class="shape-fill"></path>
+				class="shape-fill">
+			</path>
 		</svg>
 	</div>
 	<div id="popupt-overlay">
@@ -105,7 +105,7 @@
 	<section class="floatbar">
 		<div class="bar">
 			<div class="it">
-				<a href=""><img src="assets/images/announcement-svgrepo-com.svg" alt=""></a>
+				<a href="#news"><img src="assets/images/announcement-svgrepo-com.svg" alt=""></a>
 				<p>News</p>
 			</div>
 			<div class="it">
@@ -113,12 +113,21 @@
 				<p>Payments</p>
 			</div>
 			<div class="it">
-				<a href="#popup4"><img src="assets/images/calendar-tick-svgrepo-com.svg" alt=""></a>
-				<p>Events</p>
+				<!-- <button class="openPopup" data-target="popup5">Read More</button> -->
+				<a href="#" class="openPopup" data-target="popup5"><img src="assets/images/business-building-svgrepo-com.svg" alt=""></a>
+				<p>Businesses</p>
 			</div>
+
+			<!-- <div class="it">
+				<button class="openPopup" data-target="popup5">
+					<img src="assets/images/calendar-tick-svgrepo-com.svg" alt="">
+				</button>
+				
+			</div> -->
 			
 		</div>
 	</section>
+	
 
 	<!-- <section class="airnav" data-aos="fade-up" data-aos-once="false">
 		<div class="icor">
@@ -173,11 +182,11 @@
 			<div class="welcomeaddress">
 				<div class="addtext" data-aos="fade-down-left" data-aos-once="false">
 					<h2>Welcome to <span>Believers Citadel International Church</span></h2>
-					<p>Precious one,
-						We are a community of Bible-believing Christians dedicated to your Spiritual, Physical,
-						Economic, and Emotional well-being.
-						We are a Charismatic and Pentecostal Church that believes in the totality of the Bible and seeks
-						to reach the world through the preaching of the gospel, accompanied by the power of God.
+					<p>Welcome to Believers Citadel: Experience the Power of Faith where Lives are changed and Christ is made the focus.
+
+						Are you searching for a place where faith comes alive, relationships flourish, and hearts are transformed? Look no further than Believers Citadel, a charismatic church that embraces the power of God's love and the strength of a united community.
+						
+						Join us on a journey of spiritual growth, empowerment, and purpose as we come together to worship, learn, and impact the world around us. At Believers Citadel, we believe in the power of faith to bring about positive change in our lives and in the lives of those around us.
 					</p>
 					<a href="Untitled.html"><button>Meet Rev Comfort</button></a>
 
@@ -321,11 +330,11 @@
 				<h1>Follow Us On</h1>
 				<p>See What God can do through your family</p><br>
 					<div class="familylinks">
-						<a href="" class="family-item"><i class="fa fa-hand-holding-heart"></i><span>Childrens Ministry</span></a>
-						<a href="" class="family-item"><i class="fa fa-hand-holding-heart"></i><span>Youth Service</span></a>
-						<a href="" class="family-item"><i class="fa fa-hand-holding-heart"></i><span>Childrens Ministry</span></a>
-						<a href="" class="family-item"><i class="fa fa-hand-holding-heart"></i><span>Childrens Ministry</span></a>
-						<a href="" class="family-item"><i class="fa fa-hand-holding-heart"></i><span>Childrens Ministry</span></a>
+						<a href="" class="family-item"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+						<a href="" class="family-item"><i class="fab fa-spotify"></i><span>Podbean</span></a>
+						<a href="" class="family-item"><i class="fab fa-facebook"></i><span>Facebook</span></a>
+						<a href="" class="family-item"><i class="fab fa-tiktok"></i><span>Tik tok</span></a>
+						<a href="" class="family-item"><i class="fab fa-instagram"></i><span>Instagram</span></a>
 						
 					</div>
 					
@@ -344,12 +353,12 @@
 		<article>
 		  <div class="inner">
 			<span class="date">
-			  <span class="day">30<sup>th</sup></span>
-			  <span class="month">Jan</span>
+			  <span class="day">1<sup>st</sup></span>
+			  <span class="month">Oct</span>
 			  <span class="year">2014</span>
 			</span>
-			<h2>The Title</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
+			<h2>Thanksgiving </h2>
+			<p>Women's Week in our church is an annual celebration that highlights the invaluable contributions of women in our congregation .</p>
 		  </div>
 		</article>
 		<article>
@@ -435,7 +444,7 @@
 
 		</div>
 		<div class="adult">
-			<img src="assets/images/image1.jpg" alt="">
+			<img src="assets/images/childrenservice.jpg" alt="">
 
 		</div>
 
@@ -480,6 +489,21 @@
 		</div>
 	</div>
 
+	<div id="popup5" class="popup">
+		<div class="popup-content">
+			<span class="close">&times;</span>
+			<h2>Businesses of Our Members</h2>
+			<p>A web page promoting the businesses of church members by providing a platform for community support and economic empowerment. We encourage church members to showcase their businesses and services while fostering unity and collaboration within the congregation. This initiative exemplifies the spirit of mutual support and shared success among church members. Below are the links to a few of them.</p><br>
+			<a href="https://www.fruityrefresh.store">
+				<div class="blinks1">
+					<img src="assets/images/Niinaaya Ventures a.png" alt="">
+					<br><br><br><h3>Fruity refresh</h3>
+				</div>
+			</a>
+			
+		</div>
+	</div>
+
 	<div id="popup4" class="popup">
 		
 		<div class="popup-content">
@@ -503,10 +527,10 @@
 					</div>
 						<div class="event-right">
 							<h3 class="event-title">
-								Title Here
+								Womens Week Celebration.
 							</h3>
 								<div class="event-description">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aspernatur ipsum ducimus molestiae quas, recusandae explicabo illum fuga eos incidunt doloribus tenetur voluptate animi harum! Maiores eos reprehenderit distinctio explicabo.
+									Women's Week in our church is an annual celebration that highlights the invaluable contributions of women in our congregation. Through various events like worship services, discussions, and workshops, we emphasize the spiritual and societal significance of womanhood. This week serves as a reminder of the importance of women's leadership and voices in our faith community, promoting gender equality and unity within our church and beyond.
 			
 								</div>
 									<div class="event-timing">
@@ -586,7 +610,7 @@
 					</div>
 						<div class="event-right">
 							<h3 class="event-title">
-								Title Here
+								Carols
 							</h3>
 								<div class="event-description">
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, aspernatur ipsum ducimus molestiae quas, recusandae explicabo illum fuga eos incidunt doloribus tenetur voluptate animi harum! Maiores eos reprehenderit distinctio explicabo.
@@ -729,7 +753,7 @@
 		<div class="images"><img src="assets/images/image1.jpg" alt="">
 			<p>WEDNESDAY</p>
 		</div>
-		<div class="images"><img src="assets/images/image2.jpg" alt="">
+		<div class="images"><img src="assets/images/pretty.jpg" alt="">
 			<p>1ST FRIDAYS OF EVERY MONTH: All NIGHT SERVICE.</p>
 		</div>
 
@@ -863,25 +887,25 @@
 	<div class="offert">
 		<div class="icon2">
 			<div class="icon-bx1">
-				<i class="fa fa-random"></i>
+				<i class="fa fa-bible"></i>
 			</div>
-			<h1>Know the wings in the Church</h1><br>
-			<p>In BCI there are various wings to join visit the about page to learn more and join a wing. We will love to have you serve in a wing, and remeber the joy of the lord is your strength.</p>
+			<h1>Empowering Teachings</h1><br>
+			<p> Dive deep into the life-transforming teachings of our knowledgeable and anointed pastors and leaders. Discover practical insights from the Word of God that will empower you to live a victorious life.</p>
 		</div>
 
 		<div class="icon">
 			<div class="icon-bx">
-				<i class="fa fa-map-marked"></i>
+				<i class="fa fa-praying-hands"></i>
 			</div>
-			<h1>Looking for Us</h1><br>
-			<p>Tap into the annoiting of the Most High God, we located at labadi. Join us to fellowship and your life will never be the same.For more info contact 0503595708 <br> or tap on <a href="">me for a location. </a>worship eith us and your life will never be the same! Hope to see you soon.</p>
-		</div>
+			<h1>Vibrant Worship</h1><br>
+			<p>Immerse yourself in an atmosphere of passionate worship, where hearts are lifted and spirits are rejuvenated. Our dynamic worship experience will inspire and connect you to the presence of God.</p>
+		</div> 
 
 		<div class="icon2">
 			<div class="icon-bx1">
-				<i class="fa fa-calendar-check"></i>
+				<i class="fa fa-church"></i>
 			</div>
-			<h1>Plan on Visiting</h1><br>
+			<h1>Authentic Cmmunity</h1><br>
 			<p>We at BCI are one big family and we specially <br> invite you to plan a visit! Our Sunday Services are spiritualy packed with gifts from the holy spirits.Use the link below to view our calender schedule to plan a visit to our great Church. <br> <a href="">Schedule and Events</a></p>
 		</div>
 
@@ -891,31 +915,39 @@
 		
 		<div class="icon">
 			<div class="icon-bx">
-				<i class="fab fa-twitter"></i>
+				<i class="fa fa-bullhorn"></i>
 			</div>
-			<h1>Get Interactive</h1><br>
-			<p>Our church's website offers a range of interactive <br>opportunities for individuals to connect, learn, and grow together in faith. From Bible studies and small groups to worship services and community outreach, we encourage active participation and meaningful connections. Join us on a journey of spiritual growth and interactive fellowship that makes a positive impact in our community.</p>
+			<h1>Outreach and Impact</h1><br>
+			<p>Join us as we reach out to the world around us, bringing hope, compassion, and practical support to those in need. Be a part of our mission to make a positive impact on our local community and beyond.</p>
 		</div>
 
 		<div class="icon2">
 			<div class="icon-bx1">
-				<i class="fa fa-file-download"></i>
+				<i class="fa fa-check"></i>
 			</div>
-			<h1>Download Pictures on the Go</h1><br>
+			<h1>Personal Growth and Discipleship</h1><br>
 			<p>
-				Explore and download captivating pictures that showcase the spirit of our faith community on our church's website. These images capture the essence of our worship, fellowship, and events, providing inspiration and encouragement. Use them to enhance your personal collection, share our church's story, or for creative projects, while respecting copyright laws and crediting the source when sharing. </p>
+				Grow in your faith and discover your unique purpose through undiluted word of God and power of the spirit. For you to gain deeper understanding of the holy spirit. We would be happy to have you !</p>
+				<!-- Explore and download captivating pictures that showcase the spirit of our faith community on our church's website. These images capture the essence of our worship, fellowship, and events, providing inspiration and encouragement. Use them to enhance your personal collection, share our church's story, or for creative projects, while respecting copyright laws and crediting the source when sharing. </p> -->
 		</div>
 
 		<div class="icon">
 			<div class="icon-bx">
-				<i class="fa fa-check-circle"></i>
+				<i class="fa fa-calendar-check"></i>
 			</div>
-			<h1>Subscription</h1><br>
-			<p>Subscribe to our newsletter and receive inspiring sermons directly in your inbox. Stay connected with our church's teachings, whether you can't attend in person or desire ongoing spiritual nourishment. Don't miss out on the opportunity to grow and be transformed by the power of God's Word. Subscribe today for regular updates and notifications whenever new sermons are available.</p>
+			<h1>Engaging Programs</h1><br>
+			<p>
+				From inspiring youth gatherings to empowering women's conferences and dynamic men's ministries, we offer a range of programs tailored to meet the diverse needs and interests of our congregation.
+			</p>
 		</div>
 	</div>
 </section>
-
+<section class="blood" id="news">
+	<div class="coming">
+		<h1>NEWS <br>COMING SOON</h1>
+	</div>
+	
+</section>
 
 
 	<section class="music">
@@ -928,15 +960,15 @@
 	</div>
 
 	
-
+<br><br><br><br><br><br>
 	<section class="tabs">
-		<div class="tab1">
+		<!-- <div class="tab1">
 			<div class="stream">
 				<h1>Citadel <span>Voices</span></h1>
 				<p>Stream Our Music</p><br>
 				<a href=""><button>Stream</button></a>
 			</div>
-		</div><br>
+		</div><br> -->
 		<div class="tab2">
 			<div class="stream">
 				<h1>Citadel <span>Voices</span></h1>
@@ -1042,10 +1074,10 @@
 		var bannerimg = document.getElementById("bannerimg");
 
 		var images = new Array(
-			"assets/images/image1.jpg",
-			"assets/images/image2.jpg",
-			"assets/images/image3.png",
-			"assets/images/image4.jpg"
+			"assets/images/bannerimage5.jpg",
+			"assets/images/bannerimage3.jpg",
+			"assets/images/bannerimage4.jpg",
+			"assets/images/pretty.jpg"
 		);
 		var len = images.length;
 		var i = 0;
@@ -1093,21 +1125,6 @@
   })
 	</script>
 	<script src="assets/js/popups.js"></script>
-	
-	<script>
-		$(document).ready(function() {
-    $("#news-slider").owlCarousel({
-        items : 3,
-        itemsDesktop:[1199,3],
-        itemsDesktopSmall:[980,2],
-        itemsMobile : [600,1],
-        navigation:true,
-        navigationText:["",""],
-        pagination:true,
-        autoPlay:true
-    });
-});
-	</script>
 
 	<script>
 		$(document).ready(function() {
@@ -1123,6 +1140,46 @@
     });
 });
 	</script>
+	<script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                items:1
+            });
+        });
+    </script>
+	
+	<!-- <script>
+		$(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true
+    });
+});
+	</script> -->
+
+	<!-- <script>
+		$(document).ready(function() {
+    $("#news-slider").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        navigation:true,
+        navigationText:["",""],
+        pagination:true,
+        autoPlay:true
+    });
+});
+	</script> -->
 	
 </body>
 
